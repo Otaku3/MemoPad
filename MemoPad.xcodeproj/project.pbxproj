@@ -13,6 +13,7 @@
 		661902FF20CC0186005EAB45 /* MemoPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 661902FD20CC0186005EAB45 /* MemoPad.xcdatamodeld */; };
 		6619030120CC0187005EAB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6619030020CC0187005EAB45 /* Assets.xcassets */; };
 		6619030420CC0187005EAB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6619030220CC0187005EAB45 /* LaunchScreen.storyboard */; };
+		6619030C20CC01F5005EAB45 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6619030B20CC01F5005EAB45 /* MemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6619030020CC0187005EAB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6619030320CC0187005EAB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6619030520CC0187005EAB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6619030B20CC01F5005EAB45 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				661902F620CC0186005EAB45 /* AppDelegate.swift */,
 				661902F820CC0186005EAB45 /* ViewController.swift */,
 				661902FA20CC0186005EAB45 /* Main.storyboard */,
+				6619030B20CC01F5005EAB45 /* MemoViewController.swift */,
 				6619030020CC0187005EAB45 /* Assets.xcassets */,
 				6619030220CC0187005EAB45 /* LaunchScreen.storyboard */,
 				6619030520CC0187005EAB45 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6619030C20CC01F5005EAB45 /* MemoViewController.swift in Sources */,
 				661902F920CC0186005EAB45 /* ViewController.swift in Sources */,
 				661902FF20CC0186005EAB45 /* MemoPad.xcdatamodeld in Sources */,
 				661902F720CC0186005EAB45 /* AppDelegate.swift in Sources */,
